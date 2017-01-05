@@ -1,0 +1,54 @@
+{
+  "version": "0.0.1",
+  "name": "leng56-web",
+  "appPath": "public/",
+  "dependencies": {
+    "jquery": "3.1.0",
+    "bootstrap": "~3.3.0",
+    "angular": "1.5.8",
+    "angular-animate": "1.5.8",
+    "angular-aria": "1.5.8",
+    "angular-bootstrap": "^1.3.3",
+    "angular-cache-buster": "0.4.3",
+    "angular-cookies": "1.5.8",
+    "angular-messages": "1.5.8",
+    "angular-resource": "1.5.8",
+    "angular-sanitize": "1.5.8",
+    "angular-touch": "1.5.8",
+    "angular-ui-router": "0.3.1",
+    "ngstorage": "~0.3.0",
+    "animate.css": "~3.2.0",
+    "font-awesome": "~4.2.0",
+    "simple-line-icons": "~0.1.1",
+    "screenfull": "~3.0.2",
+    "oclazyload": "~1.0.9",
+    "angular-ui-sortable": "~0.15.0",
+    "angular-ui-validate": "~1.2.2",
+    "ng-file-upload": "~12.2.12",
+    "angular-ui-select": "~0.19.6",
+    "angular-slider": "venturocket-angular-slider#~0.3.2"
+  },
+  "devDependencies": {},
+  "overrides": {
+    "angular": {
+      "dependencies": {
+        "jquery": "3.1.0"
+      }
+    },
+    "angular-cache-buster": {
+      "dependencies": {
+        "angular": "1.5.8"
+      }
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    }
+  },
+  "resolutions": {
+    "angular": "1.5.8",
+    "angular-bootstrap": "2.0.0",
+    "jquery": "3.1.0"
+  }
+}
